@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Calcular tu Indice de Grasa Muscular</title>
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	</head>
+	<body>
+		<h1>Calucular tu índice de grasa muscular</h1>
+		<form th:action="@{/}" method="post" th:object="${persona}">
+			<p>
+				<label>Peso: </label><input type="text" th:field="*{peso}">
+				<span th:if="${#fields.hasErrors('peso')}" th:errors="*{peso}">Error Peso</span>
+			</p>
+			<p>
+				<label>Cintura: </label><input type="text" th:field="*{cintura}">
+				<span th:if="${#fields.hasErrors('cintura')}" th:errors="*{cintura}">Error Cintura</span>
+			</p>
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
