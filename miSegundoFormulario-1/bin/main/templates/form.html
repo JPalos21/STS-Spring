@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Empezando con Thymeleaf</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<p th:if="${errorMsg}!=null" th:text="${errorMsg}"/>
+		<form th:action="@{/}" method="post">
+			<!--<p>Tu saludo aqui: <a href="/saludo">here</a></p>-->
+				<label>Tu nombre: </label>
+			<input type="text" name="nombre">
+			<input type="submit">
+		</form>
+		
+	</body>
+</html>
