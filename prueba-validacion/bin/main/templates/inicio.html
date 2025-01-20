@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<body>
+		<h2>Formulario inicial</h2>
+		<form action="#" th:action="@{/}" method="post" th:object="${personaForm}">
+			<p>
+				Nombre: 
+				<input type="text" th:field="*{nombre}">
+				<span th:if="${#fields.hasErrors('nombre')}" th:errors="*{nombre}" >Error Nombre</span>
+			</p>
+			<p>
+				Edad:
+				
+			</p>
+		</form>
+	</body>
+</html>
