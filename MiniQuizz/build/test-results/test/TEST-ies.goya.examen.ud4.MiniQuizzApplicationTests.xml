@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ies.goya.examen.ud4.MiniQuizzApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-19T18:29:58" hostname="pc-javi" time="0.885">
+  <properties/>
+  <testcase name="contextLoads()" classname="ies.goya.examen.ud4.MiniQuizzApplicationTests" time="0.885"/>
+  <system-out><![CDATA[19:29:56.094 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ies.goya.examen.ud4.MiniQuizzApplicationTests]: MiniQuizzApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:29:56.237 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ies.goya.examen.ud4.MiniQuizzApplication for test class ies.goya.examen.ud4.MiniQuizzApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-01-19T19:29:56.851+01:00  INFO 15173 --- [MiniQuizz] [    Test worker] i.g.e.ud4.MiniQuizzApplicationTests      : Starting MiniQuizzApplicationTests using Java 17.0.13 with PID 15173 (started by javi in /media/javi/PRIVADO/2024-2025/DWES/exámenes/ud4/ficheros/MiniQuizz)
+2025-01-19T19:29:56.854+01:00  INFO 15173 --- [MiniQuizz] [    Test worker] i.g.e.ud4.MiniQuizzApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-01-19T19:29:58.495+01:00  INFO 15173 --- [MiniQuizz] [    Test worker] i.g.e.ud4.MiniQuizzApplicationTests      : Started MiniQuizzApplicationTests in 2.093 seconds (process running for 3.282)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
